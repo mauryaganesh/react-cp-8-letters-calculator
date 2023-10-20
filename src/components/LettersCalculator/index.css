@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.bg-container {
+  background-color: #1d976c;
+  height: 100dvh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  color: #219a6f;
+  font-weight: bold;
+  height: 50px;
+  width: 200px;
+  border-style: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#phrase-count {
+  background-color: transparent;
+}
